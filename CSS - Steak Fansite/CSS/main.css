@@ -1,0 +1,21 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: tomato;
+}
+
+h1 {
+	color: white;
+	font-size: 70px;
+}
+
+.steak {
+	width: 300px;
+	padding: 5px;
+	height: 200px;
+	border-radius: 10px;
+	background-color: white;
+}
+
+.circular:hover {
+	border-radius: 100%;
+}

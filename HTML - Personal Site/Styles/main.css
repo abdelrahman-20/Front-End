@@ -1,0 +1,47 @@
+/* This is The General Styling Page */
+
+body {
+	background-color: #eef5ff;
+}
+
+h1,
+h3 {
+	color: #7b66ff;
+}
+
+h3 {
+	margin: 20px;
+}
+
+.skills,
+.experiences {
+	width: 70%;
+	margin: 10px;
+	text-align: center;
+	border: none;
+}
+
+.skills tbody td,
+.experiences th,
+.experiences tbody td {
+	padding: 5px;
+	border: 1px solid #7b66ff;
+}
+
+img {
+	width: 200px;
+	height: 200px;
+	border-radius: 70%;
+}
+
+hr {
+	width: 10%;
+	height: 0px;
+	border: none;
+	border-top: 5px dotted #7b66ff;
+	margin: 20px auto;
+}
+
+a {
+	text-decoration: none;
+}

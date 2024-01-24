@@ -1,0 +1,19 @@
+body {
+	margin: 0;
+}
+
+h1 {
+	margin-top: 0;
+}
+div {
+	background-color: #52d3d8;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #200e3a;
+}
