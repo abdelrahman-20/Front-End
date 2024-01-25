@@ -5,15 +5,19 @@ body {
 h1 {
 	margin-top: 0;
 }
-div {
-	background-color: #52d3d8;
+.middle-container,
+.bottom-container {
+	width: 200px;
+	height: 200px;
+	border-radius: 5px;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	color: #200e3a;
+.top-container {
+	background-color: #52d3d8;
+}
+.middle-container {
+	background-color: red;
+}
+.bottom-container {
+	background-color: blue;
 }
