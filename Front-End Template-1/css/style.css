@@ -8,6 +8,31 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-i {
-  font-size: 200px;
+.parent {
+  background-color: #aaa;
+}
+
+.container {
+  width: 600px;
+  margin: 5px auto;
+  padding: 5px 15px;
+  background-color: tomato;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
 }
