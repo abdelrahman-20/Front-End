@@ -1,27 +1,26 @@
 // JS Lab-3 Assignment //
 // ------------------- //
 
-function arraySum(a) {
-  return a.reduce((sum, val) => sum + val, 0);
+function filterAndSortNumbers(mixedArray) {
+  mixedArray = mixedArray.filter((item) =>
+    Number.isFinite(item)
+  );
+  mixedArray.sort();
+  return mixedArray;
 }
 
-function arraySumLoop(a) {
-  let sum = 0;
-  for (let i = 0; i < a.length; i++) {
-    sum += a[i];
-  }
-  return sum;
-}
+// Ai Generated Examples
 
-// Examples
-const arr1 = [1, 2, 3, 4, 5];
-const arr2 = [10, -2, 8, 0];
+console.log(
+  filterAndSortNumbers([3, "hello", 1, 7, null, 2])
+);
+console.log(
+  filterAndSortNumbers([10, "5", 5, undefined, 0, -2])
+);
 
-console.log(arraySum(arr1));
-console.log(arraySumLoop(arr1));
-
-console.log(arraySum(arr2));
-console.log(arraySumLoop(arr2));
-
-console.log(arraySum(arr1) === arraySumLoop(arr1));
-console.log(arraySum(arr2) === arraySumLoop(arr2));
+console.log(
+  filterAndSortNumbers(["a", {}, [], 4.5, 2.2, NaN])
+);
+console.log(
+  filterAndSortNumbers([Infinity, -Infinity, 8, 3, 1])
+);
