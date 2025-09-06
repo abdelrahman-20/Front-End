@@ -44,10 +44,12 @@ body {
 }
 */
 
-.meal {
-  transition: 1s;
-}
+body {
+  background: linear-gradient(
+    90deg,
+    rgb(80, 80, 80) 0%,
+    rgb(150, 150, 150) 100%
+  );
 
-.meal:hover {
-  filter: grayscale(70%) blur(2px);
+  height: 60vh;
 }
